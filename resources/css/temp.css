@@ -1,0 +1,48 @@
+
+/*.heading {
+  background-color: cadetblue;
+  display: flex;
+  align-items: center;
+  margin-top: 1em;
+  width: 100%;
+}
+
+.fullhead {
+  display: flex;
+  align-items: center;
+}
+
+.fullmenu {
+  display: flex;
+  align-items: center;
+  flex-grow: 0.95;
+}
+
+.whitelogo {
+  height: 1.5em;
+  margin-left:2em;
+  margin-right:1em;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+li {
+  color: white;
+  text-align: right;
+  flex-grow: 0.95;
+}
+
+.title {
+  color: white;
+  font-size: 1em;
+}
+
+.container .banner {
+  margin-top: 10em;
+  background-color: white;
+  margin-left: 10em;
+  */

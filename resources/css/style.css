@@ -20,44 +20,119 @@ body {
   align-items: center;
 }
 
-.heading {
-  background-color: cadetblue;
-  display: flex;
-  align-items: center;
-  margin-top: 1em;
+nav {
   width: 100%;
+  padding: 1rem 0;
+  background-color: cadetblue;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-
-.fullhead {
+nav div {
   display: flex;
   align-items: center;
 }
-
-.fullmenu {
-  display: flex;
-  align-items: center;
-  flex-grow: 0.95;
+nav img {
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
 }
-
-.whitelogo {
-  height: 1.5em;
-  margin-left:2em;
-  margin-right:1em;
-}
-
 ul {
+  margin-right: 1rem;
+}
+ul li {
+  display: inline;
+  padding: 0 1rem;
+}
+
+.banner {
+  margin-top: 10em;
+  background-color: white;
+  margin-left: 42em;
+  margin-right: 10em;
   display: flex;
   align-items: center;
-  list-style: none;
 }
 
-li {
-  color: white;
-  text-align: right;
-  flex-grow: 0.95;
+h1 {
+  font-family: Helvetica;
+  margin: 1.5rem 5rem;
+  font-size:2rem;
+  font-weight:bold;
+  line-height: 1.2;
 }
 
-.title {
-  color: white;
+.objectives {
+  display: flex;
+  align-items: center;
+  margin-top:3rem;
+}
+
+.obj {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 8em;
+    margin-right:6em;
+}
+
+.exam img{
+  max-width: 3.5em;
+}
+
+.objects {
+  justify-content: center;
+}
+.fitting img, .delivery img{
+  max-width: 5em;
+}
+
+.objectives .image {
+  border-style: none;
+}
+
+.container .objectives{
+  justify-content: center;
+}
+
+.philosophy {
+    display: flex;
+    margin-top: 3rem;
+    justify-content: space-between;
+  }
+
+  .points{
+    max-width:35%;
+    margin-right: 5%;
+  }
+
+.title{
+  display: block;
+  font-weight: bold;
   font-size: 1em;
+  background-color:cadetblue;
+  padding-left:1.25em;
+  color:white;
+  width:10em;
+  padding-top:0.5em;
+  padding-bottom:0.5em;
+}
+
+footer {
+  background-color: azure;
+  margin-top:5em;
+  padding-top:4em;
+  padding-bottom:4em;
+}
+
+.copyright{
+  display: flex;
+  align-content: center;
+}
+
+.copyright img{
+  height: 1.5em;
+  margin-right:1em;
 }
